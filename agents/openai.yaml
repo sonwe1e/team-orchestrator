@@ -1,0 +1,13 @@
+interface:
+  display_name: Team Orchestrator · 协作团队
+  short_description: 按目标组织多 Agent 团队，协同研究、分工执行、独立验证并沉淀经验
+  default_prompt: 使用 $team-orchestrator 组织团队完成以下任务：先核对目标与疑问，再研究方案、分配执行者和子 Agent，并独立验证交付结果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
